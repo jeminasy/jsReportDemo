@@ -1,0 +1,20 @@
+{
+    "name": "temp1",
+    "engine": "handlebars",
+    "recipe": "chrome-pdf",
+    "data": {
+        "shortid": "B1lSTrt6NB"
+    },
+    "shortid": "SywrNY7wf",
+    "chrome": {
+        "printBackground": true
+    },
+    "creationDate": {
+        "$$date": 1636265588742
+    },
+    "modificationDate": {
+        "$$date": 1636268324061
+    },
+    "_id": "nTqOKrnpPj1AsgOV",
+    "$entitySet": "templates"
+}

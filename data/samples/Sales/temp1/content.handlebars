@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <style>{#asset styles.css}</style>
+    </head>
+    <body>
+        <h1>Sales Report</h1>
+        <div>
+            <span><strong>Customer Name: </strong>{{customer}}</span><br></br>
+            <span><strong>Month: </strong>{{month}}</span><br></br>
+            <span><strong>Tax%: </strong>{{taxPercentage}}</span><br></br>
+        </div>
+        <div>
+            <table>
+                <caption>For April 2002</caption>
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Qty.</th>
+                        <th>Product</th>
+                        <th>Caterogy</th>
+                        <th>Unit Price</th>
+                        <th>Disc. %</th>
+                        <th>Disc. Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {{#each detail}}
+                    <tr>
+                        <td>{{date}}</td>
+                        <td>{{quantity}}</td>
+                        <td>{{product}}</td>
+                        <td>{{category}}</td>
+                        <td>{{unitPrice}}</td>
+                        <td>{{discountPercentage}}</td>
+                        <td>{{#dPrice unitPrice discountPercentage}}{{/dPrice}}</td>
+                    </tr>
+                    {{/each}}
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>

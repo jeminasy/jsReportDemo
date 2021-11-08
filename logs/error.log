@@ -1,0 +1,660 @@
+2021-11-07T07:05:58.502Z - error: Error when starting http server on port 5488 Error: listen EADDRINUSE: address already in use :::5488
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:22:12
+    at new Promise (<anonymous>)
+    at startAsync (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:16:10)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:50:14
+    at Object.start (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:124:13)
+    at Object.<anonymous> (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:318:30)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2021-11-07T07:10:31.424Z - error: Error when starting http server on port 5488 Error: listen EADDRINUSE: address already in use :::5488
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:22:12
+    at new Promise (<anonymous>)
+    at startAsync (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:16:10)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:50:14
+    at Object.start (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:124:13)
+    at Object.<anonymous> (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:318:30)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2021-11-07T07:13:42.190Z - error: Error when starting http server on port 5488 Error: listen EADDRINUSE: address already in use :::5488
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:22:12
+    at new Promise (<anonymous>)
+    at startAsync (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:16:10)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:50:14
+    at Object.start (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:124:13)
+    at Object.<anonymous> (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:318:30)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2021-11-07T08:21:43.050Z - error: uncaughtException: jsreport already initialized or just initializing. Make sure init is called only once
+Error: jsreport already initialized or just initializing. Make sure init is called only once
+    at MainReporter.init (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\reporter.js:160:13)
+    at D:\jemina\ICS2609\jsReportDemo\app.js:19:20
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:317:13)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:275:10)
+    at query (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\middleware\query.js:45:5) error=Error: jsreport already initialized or just initializing. Make sure init is called only once, stack=Error: jsreport already initialized or just initializing. Make sure init is called only once
+    at MainReporter.init (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\reporter.js:160:13)
+    at D:\jemina\ICS2609\jsReportDemo\app.js:19:20
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:317:13)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:275:10)
+    at query (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\middleware\query.js:45:5), exception=true, date=Sun Nov 07 2021 16:21:42 GMT+0800 (菲律宾标准时间), process=[object Object], os=[object Object], trace=[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2021-11-07T09:04:16.698Z - error: uncaughtException: jsreport already initialized or just initializing. Make sure init is called only once
+Error: jsreport already initialized or just initializing. Make sure init is called only once
+    at MainReporter.init (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\reporter.js:160:13)
+    at D:\jemina\ICS2609\jsReportDemo\app.js:19:20
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:317:13)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:275:10)
+    at query (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\middleware\query.js:45:5) error=Error: jsreport already initialized or just initializing. Make sure init is called only once, stack=Error: jsreport already initialized or just initializing. Make sure init is called only once
+    at MainReporter.init (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\reporter.js:160:13)
+    at D:\jemina\ICS2609\jsReportDemo\app.js:19:20
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:317:13)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:275:10)
+    at query (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\middleware\query.js:45:5), exception=true, date=Sun Nov 07 2021 17:04:16 GMT+0800 (菲律宾标准时间), process=[object Object], os=[object Object], trace=[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2021-11-07T09:05:44.770Z - error: uncaughtException: Timeout occurred when waiting for the worker action "init"
+Error: Timeout occurred when waiting for the worker action "init"
+    at Timeout._onTimeout (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\advanced-workers\lib\threadWorker.js:41:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7) error=Error: Timeout occurred when waiting for the worker action "init", stack=Error: Timeout occurred when waiting for the worker action "init"
+    at Timeout._onTimeout (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\advanced-workers\lib\threadWorker.js:41:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7), exception=true, date=Sun Nov 07 2021 17:05:44 GMT+0800 (菲律宾标准时间), process=[object Object], os=[object Object], trace=[object Object],[object Object],[object Object]
+2021-11-07T09:07:33.304Z - error: uncaughtException: jsreport already initialized or just initializing. Make sure init is called only once
+Error: jsreport already initialized or just initializing. Make sure init is called only once
+    at MainReporter.init (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\reporter.js:160:13)
+    at D:\jemina\ICS2609\jsReportDemo\app.js:19:20
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:317:13)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:275:10)
+    at query (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\middleware\query.js:45:5) error=Error: jsreport already initialized or just initializing. Make sure init is called only once, stack=Error: jsreport already initialized or just initializing. Make sure init is called only once
+    at MainReporter.init (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\reporter.js:160:13)
+    at D:\jemina\ICS2609\jsReportDemo\app.js:19:20
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:317:13)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:275:10)
+    at query (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\middleware\query.js:45:5), exception=true, date=Sun Nov 07 2021 17:07:32 GMT+0800 (菲律宾标准时间), process=[object Object], os=[object Object], trace=[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2021-11-07T09:14:59.751Z - error: uncaughtException: jsreport already initialized or just initializing. Make sure init is called only once
+Error: jsreport already initialized or just initializing. Make sure init is called only once
+    at MainReporter.init (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\reporter.js:160:13)
+    at D:\jemina\ICS2609\jsReportDemo\app.js:19:20
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:317:13)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:275:10)
+    at query (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\middleware\query.js:45:5) error=Error: jsreport already initialized or just initializing. Make sure init is called only once, stack=Error: jsreport already initialized or just initializing. Make sure init is called only once
+    at MainReporter.init (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\reporter.js:160:13)
+    at D:\jemina\ICS2609\jsReportDemo\app.js:19:20
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:317:13)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:275:10)
+    at query (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\middleware\query.js:45:5), exception=true, date=Sun Nov 07 2021 17:14:59 GMT+0800 (菲律宾标准时间), process=[object Object], os=[object Object], trace=[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2021-11-07T09:30:47.481Z - error: uncaughtException: jsreport already initialized or just initializing. Make sure init is called only once
+Error: jsreport already initialized or just initializing. Make sure init is called only once
+    at MainReporter.init (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\reporter.js:160:13)
+    at D:\jemina\ICS2609\jsReportDemo\app.js:19:20
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:317:13)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:275:10)
+    at query (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\middleware\query.js:45:5) error=Error: jsreport already initialized or just initializing. Make sure init is called only once, stack=Error: jsreport already initialized or just initializing. Make sure init is called only once
+    at MainReporter.init (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\reporter.js:160:13)
+    at D:\jemina\ICS2609\jsReportDemo\app.js:19:20
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:317:13)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:275:10)
+    at query (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\middleware\query.js:45:5), exception=true, date=Sun Nov 07 2021 17:30:46 GMT+0800 (菲律宾标准时间), process=[object Object], os=[object Object], trace=[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2021-11-07T09:32:32.357Z - error: uncaughtException: jsreport already initialized or just initializing. Make sure init is called only once
+Error: jsreport already initialized or just initializing. Make sure init is called only once
+    at MainReporter.init (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\reporter.js:160:13)
+    at D:\jemina\ICS2609\jsReportDemo\app.js:19:20
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:317:13)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:275:10)
+    at query (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\middleware\query.js:45:5) error=Error: jsreport already initialized or just initializing. Make sure init is called only once, stack=Error: jsreport already initialized or just initializing. Make sure init is called only once
+    at MainReporter.init (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\reporter.js:160:13)
+    at D:\jemina\ICS2609\jsReportDemo\app.js:19:20
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:317:13)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:275:10)
+    at query (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\middleware\query.js:45:5), exception=true, date=Sun Nov 07 2021 17:32:31 GMT+0800 (菲律宾标准时间), process=[object Object], os=[object Object], trace=[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2021-11-07T09:34:26.368Z - error: uncaughtException: jsreport already initialized or just initializing. Make sure init is called only once
+Error: jsreport already initialized or just initializing. Make sure init is called only once
+    at MainReporter.init (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\reporter.js:160:13)
+    at D:\jemina\ICS2609\jsReportDemo\app.js:19:20
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:317:13)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:275:10)
+    at query (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\middleware\query.js:45:5) error=Error: jsreport already initialized or just initializing. Make sure init is called only once, stack=Error: jsreport already initialized or just initializing. Make sure init is called only once
+    at MainReporter.init (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\reporter.js:160:13)
+    at D:\jemina\ICS2609\jsReportDemo\app.js:19:20
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:317:13)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:275:10)
+    at query (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\middleware\query.js:45:5), exception=true, date=Sun Nov 07 2021 17:34:26 GMT+0800 (菲律宾标准时间), process=[object Object], os=[object Object], trace=[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2021-11-07T10:55:53.564Z - error: uncaughtException: jsreport already initialized or just initializing. Make sure init is called only once
+Error: jsreport already initialized or just initializing. Make sure init is called only once
+    at MainReporter.init (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\reporter.js:160:13)
+    at D:\jemina\ICS2609\jsReportDemo\app.js:19:20
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:317:13)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:275:10)
+    at query (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\middleware\query.js:45:5) error=Error: jsreport already initialized or just initializing. Make sure init is called only once, stack=Error: jsreport already initialized or just initializing. Make sure init is called only once
+    at MainReporter.init (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\reporter.js:160:13)
+    at D:\jemina\ICS2609\jsReportDemo\app.js:19:20
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:317:13)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:275:10)
+    at query (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\middleware\query.js:45:5), exception=true, date=Sun Nov 07 2021 18:55:53 GMT+0800 (菲律宾标准时间), process=[object Object], os=[object Object], trace=[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2021-11-07T11:01:32.772Z - error: uncaughtException: Unable to find specified template or user does not have permissions to read it: SywrNY7wf
+Error: Unable to find specified template or user does not have permissions to read it: SywrNY7wf
+    at module.exports (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:46:12)
+    at AsyncFunction.<anonymous> (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\worker\templates.js:30:22)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\listener-collection\lib\listenerCollection.js:171:33
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\listener-collection\lib\listenerCollection.js:151:16
+    at bound (node:domain:421:15)
+    at runBound (node:domain:432:12)
+    at tryCatcher (D:\jemina\ICS2609\jsReportDemo\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\jemina\ICS2609\jsReportDemo\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (D:\jemina\ICS2609\jsReportDemo\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromiseCtx (D:\jemina\ICS2609\jsReportDemo\node_modules\bluebird\js\release\promise.js:606:10)
+    at Async._drainQueue (D:\jemina\ICS2609\jsReportDemo\node_modules\bluebird\js\release\async.js:138:12)
+    at Async._drainQueues (D:\jemina\ICS2609\jsReportDemo\node_modules\bluebird\js\release\async.js:143:10)
+    at Immediate.Async.drainQueues (D:\jemina\ICS2609\jsReportDemo\node_modules\bluebird\js\release\async.js:17:14)
+    at processImmediate (node:internal/timers:464:21)
+    at process.topLevelDomainCallback (node:domain:152:15) error=Error: Unable to find specified template or user does not have permissions to read it: SywrNY7wf, stack=Error: Unable to find specified template or user does not have permissions to read it: SywrNY7wf
+    at module.exports (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:46:12)
+    at AsyncFunction.<anonymous> (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\worker\templates.js:30:22)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\listener-collection\lib\listenerCollection.js:171:33
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\listener-collection\lib\listenerCollection.js:151:16
+    at bound (node:domain:421:15)
+    at runBound (node:domain:432:12)
+    at tryCatcher (D:\jemina\ICS2609\jsReportDemo\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\jemina\ICS2609\jsReportDemo\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (D:\jemina\ICS2609\jsReportDemo\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromiseCtx (D:\jemina\ICS2609\jsReportDemo\node_modules\bluebird\js\release\promise.js:606:10)
+    at Async._drainQueue (D:\jemina\ICS2609\jsReportDemo\node_modules\bluebird\js\release\async.js:138:12)
+    at Async._drainQueues (D:\jemina\ICS2609\jsReportDemo\node_modules\bluebird\js\release\async.js:143:10)
+    at Immediate.Async.drainQueues (D:\jemina\ICS2609\jsReportDemo\node_modules\bluebird\js\release\async.js:17:14)
+    at processImmediate (node:internal/timers:464:21)
+    at process.topLevelDomainCallback (node:domain:152:15), exception=true, date=Sun Nov 07 2021 19:01:32 GMT+0800 (菲律宾标准时间), process=[object Object], os=[object Object], trace=[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2021-11-07T11:02:43.615Z - error: uncaughtException: Unable to find specified template or user does not have permissions to read it: SywrNY7wf
+Error: Unable to find specified template or user does not have permissions to read it: SywrNY7wf
+    at module.exports (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:46:12)
+    at AsyncFunction.<anonymous> (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\worker\templates.js:30:22)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\listener-collection\lib\listenerCollection.js:171:33
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\listener-collection\lib\listenerCollection.js:151:16
+    at bound (node:domain:421:15)
+    at runBound (node:domain:432:12)
+    at tryCatcher (D:\jemina\ICS2609\jsReportDemo\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\jemina\ICS2609\jsReportDemo\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (D:\jemina\ICS2609\jsReportDemo\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromiseCtx (D:\jemina\ICS2609\jsReportDemo\node_modules\bluebird\js\release\promise.js:606:10)
+    at Async._drainQueue (D:\jemina\ICS2609\jsReportDemo\node_modules\bluebird\js\release\async.js:138:12)
+    at Async._drainQueues (D:\jemina\ICS2609\jsReportDemo\node_modules\bluebird\js\release\async.js:143:10)
+    at Immediate.Async.drainQueues (D:\jemina\ICS2609\jsReportDemo\node_modules\bluebird\js\release\async.js:17:14)
+    at processImmediate (node:internal/timers:464:21)
+    at process.topLevelDomainCallback (node:domain:152:15) error=Error: Unable to find specified template or user does not have permissions to read it: SywrNY7wf, stack=Error: Unable to find specified template or user does not have permissions to read it: SywrNY7wf
+    at module.exports (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:46:12)
+    at AsyncFunction.<anonymous> (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\worker\templates.js:30:22)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\listener-collection\lib\listenerCollection.js:171:33
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\listener-collection\lib\listenerCollection.js:151:16
+    at bound (node:domain:421:15)
+    at runBound (node:domain:432:12)
+    at tryCatcher (D:\jemina\ICS2609\jsReportDemo\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\jemina\ICS2609\jsReportDemo\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (D:\jemina\ICS2609\jsReportDemo\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromiseCtx (D:\jemina\ICS2609\jsReportDemo\node_modules\bluebird\js\release\promise.js:606:10)
+    at Async._drainQueue (D:\jemina\ICS2609\jsReportDemo\node_modules\bluebird\js\release\async.js:138:12)
+    at Async._drainQueues (D:\jemina\ICS2609\jsReportDemo\node_modules\bluebird\js\release\async.js:143:10)
+    at Immediate.Async.drainQueues (D:\jemina\ICS2609\jsReportDemo\node_modules\bluebird\js\release\async.js:17:14)
+    at processImmediate (node:internal/timers:464:21)
+    at process.topLevelDomainCallback (node:domain:152:15), exception=true, date=Sun Nov 07 2021 19:02:43 GMT+0800 (菲律宾标准时间), process=[object Object], os=[object Object], trace=[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2021-11-07T11:05:01.805Z - error: uncaughtException: jsreport already initialized or just initializing. Make sure init is called only once
+Error: jsreport already initialized or just initializing. Make sure init is called only once
+    at MainReporter.init (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\reporter.js:160:13)
+    at D:\jemina\ICS2609\jsReportDemo\app.js:19:20
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:317:13)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:275:10)
+    at query (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\middleware\query.js:45:5) error=Error: jsreport already initialized or just initializing. Make sure init is called only once, stack=Error: jsreport already initialized or just initializing. Make sure init is called only once
+    at MainReporter.init (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\reporter.js:160:13)
+    at D:\jemina\ICS2609\jsReportDemo\app.js:19:20
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:317:13)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:275:10)
+    at query (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\middleware\query.js:45:5), exception=true, date=Sun Nov 07 2021 19:05:01 GMT+0800 (菲律宾标准时间), process=[object Object], os=[object Object], trace=[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2021-11-07T11:06:58.630Z - error: uncaughtException: jsreport already initialized or just initializing. Make sure init is called only once
+Error: jsreport already initialized or just initializing. Make sure init is called only once
+    at MainReporter.init (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\reporter.js:160:13)
+    at D:\jemina\ICS2609\jsReportDemo\app.js:19:20
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:317:13)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:275:10)
+    at query (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\middleware\query.js:45:5) error=Error: jsreport already initialized or just initializing. Make sure init is called only once, stack=Error: jsreport already initialized or just initializing. Make sure init is called only once
+    at MainReporter.init (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\reporter.js:160:13)
+    at D:\jemina\ICS2609\jsReportDemo\app.js:19:20
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:317:13)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:275:10)
+    at query (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\middleware\query.js:45:5), exception=true, date=Sun Nov 07 2021 19:06:58 GMT+0800 (菲律宾标准时间), process=[object Object], os=[object Object], trace=[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2021-11-07T11:07:40.237Z - error: uncaughtException: jsreport already initialized or just initializing. Make sure init is called only once
+Error: jsreport already initialized or just initializing. Make sure init is called only once
+    at MainReporter.init (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\reporter.js:160:13)
+    at D:\jemina\ICS2609\jsReportDemo\app.js:19:20
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:317:13)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:275:10)
+    at query (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\middleware\query.js:45:5) error=Error: jsreport already initialized or just initializing. Make sure init is called only once, stack=Error: jsreport already initialized or just initializing. Make sure init is called only once
+    at MainReporter.init (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\reporter.js:160:13)
+    at D:\jemina\ICS2609\jsReportDemo\app.js:19:20
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:317:13)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:275:10)
+    at query (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\middleware\query.js:45:5), exception=true, date=Sun Nov 07 2021 19:07:40 GMT+0800 (菲律宾标准时间), process=[object Object], os=[object Object], trace=[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2021-11-07T11:15:02.285Z - error: uncaughtException: jsreport.render is not a function
+TypeError: jsreport.render is not a function
+    at D:\jemina\ICS2609\jsReportDemo\app.js:21:14
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:317:13)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:275:10)
+    at query (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\middleware\query.js:45:5)
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5) error=TypeError: jsreport.render is not a function, stack=TypeError: jsreport.render is not a function
+    at D:\jemina\ICS2609\jsReportDemo\app.js:21:14
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:317:13)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:275:10)
+    at query (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\middleware\query.js:45:5)
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5), exception=true, date=Sun Nov 07 2021 19:15:01 GMT+0800 (菲律宾标准时间), process=[object Object], os=[object Object], trace=[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2021-11-07T11:17:37.558Z - error: uncaughtException: listen EADDRINUSE: address already in use :::5488
+Error: listen EADDRINUSE: address already in use :::5488
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:22:12
+    at new Promise (<anonymous>)
+    at startAsync (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:16:10)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:50:14
+    at Object.start (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:124:13)
+    at Object.<anonymous> (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:318:30)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) error=Error: listen EADDRINUSE: address already in use :::5488, stack=Error: listen EADDRINUSE: address already in use :::5488
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:22:12
+    at new Promise (<anonymous>)
+    at startAsync (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:16:10)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:50:14
+    at Object.start (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:124:13)
+    at Object.<anonymous> (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:318:30)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5), exception=true, date=Sun Nov 07 2021 19:17:37 GMT+0800 (菲律宾标准时间), process=[object Object], os=[object Object], trace=[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2021-11-07T12:24:42.228Z - error: uncaughtException: listen EADDRINUSE: address already in use :::5488
+Error: listen EADDRINUSE: address already in use :::5488
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:22:12
+    at new Promise (<anonymous>)
+    at startAsync (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:16:10)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:50:14
+    at Object.start (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:124:13)
+    at Object.<anonymous> (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:318:30)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) error=Error: listen EADDRINUSE: address already in use :::5488, stack=Error: listen EADDRINUSE: address already in use :::5488
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:22:12
+    at new Promise (<anonymous>)
+    at startAsync (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:16:10)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:50:14
+    at Object.start (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:124:13)
+    at Object.<anonymous> (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:318:30)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5), exception=true, date=Sun Nov 07 2021 20:24:41 GMT+0800 (菲律宾标准时间), process=[object Object], os=[object Object], trace=[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2021-11-07T12:25:40.013Z - error: uncaughtException: listen EADDRINUSE: address already in use :::5488
+Error: listen EADDRINUSE: address already in use :::5488
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:22:12
+    at new Promise (<anonymous>)
+    at startAsync (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:16:10)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:50:14
+    at Object.start (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:124:13)
+    at Object.<anonymous> (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:318:30)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) error=Error: listen EADDRINUSE: address already in use :::5488, stack=Error: listen EADDRINUSE: address already in use :::5488
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:22:12
+    at new Promise (<anonymous>)
+    at startAsync (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:16:10)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:50:14
+    at Object.start (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:124:13)
+    at Object.<anonymous> (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:318:30)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5), exception=true, date=Sun Nov 07 2021 20:25:39 GMT+0800 (菲律宾标准时间), process=[object Object], os=[object Object], trace=[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2021-11-07T12:28:12.566Z - error: uncaughtException: listen EADDRINUSE: address already in use :::5488
+Error: listen EADDRINUSE: address already in use :::5488
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:22:12
+    at new Promise (<anonymous>)
+    at startAsync (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:16:10)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:50:14
+    at Object.start (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:124:13)
+    at Object.<anonymous> (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:318:30)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) error=Error: listen EADDRINUSE: address already in use :::5488, stack=Error: listen EADDRINUSE: address already in use :::5488
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:22:12
+    at new Promise (<anonymous>)
+    at startAsync (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:16:10)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:50:14
+    at Object.start (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:124:13)
+    at Object.<anonymous> (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:318:30)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5), exception=true, date=Sun Nov 07 2021 20:28:12 GMT+0800 (菲律宾标准时间), process=[object Object], os=[object Object], trace=[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2021-11-07T12:30:23.902Z - error: Error when starting http server on port 5488 Error: listen EADDRINUSE: address already in use :::5488
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:22:12
+    at new Promise (<anonymous>)
+    at startAsync (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:16:10)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:50:14
+    at Object.start (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:124:13)
+    at Object.<anonymous> (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:318:30)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2021-11-07T12:31:00.708Z - error: Error when starting http server on port 5488 Error: listen EADDRINUSE: address already in use :::5488
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:22:12
+    at new Promise (<anonymous>)
+    at startAsync (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:16:10)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:50:14
+    at Object.start (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:124:13)
+    at Object.<anonymous> (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:318:30)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2021-11-07T12:32:27.354Z - error: Error when starting http server on port 5488 Error: listen EADDRINUSE: address already in use :::5488
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:22:12
+    at new Promise (<anonymous>)
+    at startAsync (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:16:10)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:50:14
+    at Object.start (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:124:13)
+    at Object.<anonymous> (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:318:30)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2021-11-07T12:33:16.998Z - error: uncaughtException: listen EADDRINUSE: address already in use :::5488
+Error: listen EADDRINUSE: address already in use :::5488
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:22:12
+    at new Promise (<anonymous>)
+    at startAsync (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:16:10)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:50:14
+    at Object.start (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:124:13)
+    at Object.<anonymous> (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:318:30)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) error=Error: listen EADDRINUSE: address already in use :::5488, stack=Error: listen EADDRINUSE: address already in use :::5488
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:22:12
+    at new Promise (<anonymous>)
+    at startAsync (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:16:10)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:50:14
+    at Object.start (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:124:13)
+    at Object.<anonymous> (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:318:30)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5), exception=true, date=Sun Nov 07 2021 20:33:16 GMT+0800 (菲律宾标准时间), process=[object Object], os=[object Object], trace=[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]

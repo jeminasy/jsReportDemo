@@ -1,0 +1,18 @@
+{
+  "name": "jsreport-server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "jsreport": "jsreport"
+  },
+  "jsreport": {
+    "entryPoint": "server.js"
+  },
+  "dependencies": {
+    "@jsreport/jsreport-chrome-pdf": "^3.0.0",
+    "@jsreport/jsreport-core": "^3.0.1",
+    "@jsreport/jsreport-handlebars": "^3.0.0",
+    "jsreport": "^3.0.1",
+    "puppeteer": "^11.0.0"
+  }
+}
