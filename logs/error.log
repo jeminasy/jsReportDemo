@@ -658,3 +658,346 @@ Error: listen EADDRINUSE: address already in use :::5488
     at Object.start (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:124:13)
     at Object.<anonymous> (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:318:30)
     at processTicksAndRejections (node:internal/process/task_queues:96:5), exception=true, date=Sun Nov 07 2021 20:33:16 GMT+0800 (菲律宾标准时间), process=[object Object], os=[object Object], trace=[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2021-11-08T06:52:27.754Z - error: uncaughtException: jsreport already initialized or just initializing. Make sure init is called only once
+Error: jsreport already initialized or just initializing. Make sure init is called only once
+    at MainReporter.init (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\reporter.js:160:13)
+    at D:\jemina\ICS2609\jsReportDemo\app.js:30:20
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:317:13)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:275:10)
+    at query (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\middleware\query.js:45:5) error=Error: jsreport already initialized or just initializing. Make sure init is called only once, stack=Error: jsreport already initialized or just initializing. Make sure init is called only once
+    at MainReporter.init (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\reporter.js:160:13)
+    at D:\jemina\ICS2609\jsReportDemo\app.js:30:20
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:317:13)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:275:10)
+    at query (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\middleware\query.js:45:5), exception=true, date=Mon Nov 08 2021 14:52:27 GMT+0800 (菲律宾标准时间), process=[object Object], os=[object Object], trace=[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2021-11-08T06:54:50.503Z - error: Error when starting http server on port 5488 Error: listen EADDRINUSE: address already in use :::5488
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:22:12
+    at new Promise (<anonymous>)
+    at startAsync (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:16:10)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:50:14
+    at Object.start (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:124:13)
+    at Object.<anonymous> (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:318:30)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2021-11-08T06:57:18.289Z - error: Error when starting http server on port 5488 Error: listen EADDRINUSE: address already in use :::5488
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:22:12
+    at new Promise (<anonymous>)
+    at startAsync (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:16:10)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:50:14
+    at Object.start (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:124:13)
+    at Object.<anonymous> (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:318:30)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2021-11-10T12:16:24.797Z - error: Error occurred during reporter init: Error: Error when loading extension handlebars@local:D:\jemina\ICS2609\jsReportDemo\node_modules\jsreport-handlebars:2.1.0
+Error: Extension "handlebars" is not compatible with "core" extension. Missing ".requires" information in "handlebars" definition
+    at validateMinimalVersion (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\extensions\validateMinimalVersion.js:24:11)
+    at Object._useOne (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\extensions\extensionsManager.js:159:9)
+    at Object._useMany (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\extensions\extensionsManager.js:100:38)
+    at Object.init (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\extensions\extensionsManager.js:75:19)
+    at MainReporter.init (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\reporter.js:198:36)
+    at Object._useOne (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\extensions\extensionsManager.js:249:15)
+    at Object._useMany (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\extensions\extensionsManager.js:100:38)
+    at Object.init (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\extensions\extensionsManager.js:75:19)
+    at MainReporter.init (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\reporter.js:198:36)
+2021-11-10T12:18:47.316Z - error: Error occurred during reporter init: Error: Error when loading extension handlebars@local:D:\jemina\ICS2609\jsReportDemo\node_modules\jsreport-handlebars:2.1.0
+Error: Extension "handlebars" is not compatible with "core" extension. Missing ".requires" information in "handlebars" definition
+    at validateMinimalVersion (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\extensions\validateMinimalVersion.js:24:11)
+    at Object._useOne (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\extensions\extensionsManager.js:159:9)
+    at Object._useMany (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\extensions\extensionsManager.js:100:38)
+    at Object.init (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\extensions\extensionsManager.js:75:19)
+    at MainReporter.init (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\reporter.js:198:36)
+    at Object._useOne (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\extensions\extensionsManager.js:249:15)
+    at Object._useMany (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\extensions\extensionsManager.js:100:38)
+    at Object.init (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\extensions\extensionsManager.js:75:19)
+    at MainReporter.init (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\reporter.js:198:36)
+2021-11-10T12:19:19.053Z - error: Error occurred during reporter init: Error: Error when loading extension handlebars@local:D:\jemina\ICS2609\jsReportDemo\node_modules\jsreport-handlebars:2.1.0
+Error: Extension "handlebars" is not compatible with "core" extension. Missing ".requires" information in "handlebars" definition
+    at validateMinimalVersion (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\extensions\validateMinimalVersion.js:24:11)
+    at Object._useOne (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\extensions\extensionsManager.js:159:9)
+    at Object._useMany (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\extensions\extensionsManager.js:100:38)
+    at Object.init (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\extensions\extensionsManager.js:75:19)
+    at MainReporter.init (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\reporter.js:198:36)
+    at Object._useOne (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\extensions\extensionsManager.js:249:15)
+    at Object._useMany (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\extensions\extensionsManager.js:100:38)
+    at Object.init (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\extensions\extensionsManager.js:75:19)
+    at MainReporter.init (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\reporter.js:198:36)
+2021-11-10T12:23:24.334Z - error: Error occurred during reporter init: Error: Error when loading extension handlebars@local:D:\jemina\ICS2609\jsReportDemo\node_modules\jsreport-handlebars:2.1.0
+Error: Extension "handlebars" is not compatible with "core" extension. Missing ".requires" information in "handlebars" definition
+    at validateMinimalVersion (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\extensions\validateMinimalVersion.js:24:11)
+    at Object._useOne (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\extensions\extensionsManager.js:159:9)
+    at Object._useMany (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\extensions\extensionsManager.js:100:38)
+    at Object.init (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\extensions\extensionsManager.js:75:19)
+    at MainReporter.init (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\reporter.js:198:36)
+    at Object._useOne (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\extensions\extensionsManager.js:249:15)
+    at Object._useMany (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\extensions\extensionsManager.js:100:38)
+    at Object.init (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\extensions\extensionsManager.js:75:19)
+    at MainReporter.init (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\reporter.js:198:36)
+2021-11-10T12:23:58.533Z - error: Error occurred during reporter init: Error: Error when loading extension handlebars@local:D:\jemina\ICS2609\jsReportDemo\node_modules\jsreport-handlebars:2.1.0
+Error: Extension "handlebars" is not compatible with "core" extension. Missing ".requires" information in "handlebars" definition
+    at validateMinimalVersion (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\extensions\validateMinimalVersion.js:24:11)
+    at Object._useOne (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\extensions\extensionsManager.js:159:9)
+    at Object._useMany (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\extensions\extensionsManager.js:100:38)
+    at Object.init (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\extensions\extensionsManager.js:75:19)
+    at MainReporter.init (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\reporter.js:198:36)
+    at Object._useOne (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\extensions\extensionsManager.js:249:15)
+    at Object._useMany (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\extensions\extensionsManager.js:100:38)
+    at Object.init (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\extensions\extensionsManager.js:75:19)
+    at MainReporter.init (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-core\lib\main\reporter.js:198:36)
+2021-11-10T12:31:17.391Z - error: Error when starting http server on port 5488 Error: listen EADDRINUSE: address already in use :::5488
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:22:12
+    at new Promise (<anonymous>)
+    at startAsync (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:16:10)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:50:14
+    at Object.start (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:124:13)
+    at Object.<anonymous> (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:318:30)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2021-11-10T12:31:18.469Z - error: uncaughtException: listen EADDRINUSE: address already in use :::5488
+Error: listen EADDRINUSE: address already in use :::5488
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:22:12
+    at new Promise (<anonymous>)
+    at startAsync (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:16:10)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:50:14
+    at Object.start (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:124:13)
+    at Object.<anonymous> (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:318:30)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) error=Error: listen EADDRINUSE: address already in use :::5488, stack=Error: listen EADDRINUSE: address already in use :::5488
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:22:12
+    at new Promise (<anonymous>)
+    at startAsync (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:16:10)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:50:14
+    at Object.start (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:124:13)
+    at Object.<anonymous> (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:318:30)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5), exception=true, date=Wed Nov 10 2021 20:31:17 GMT+0800 (菲律宾标准时间), process=[object Object], os=[object Object], trace=[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2021-11-10T12:31:17.468Z - error: Error occurred during reporter init: Error: listen EADDRINUSE: address already in use :::5488
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:22:12
+    at new Promise (<anonymous>)
+    at startAsync (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:16:10)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:50:14
+    at Object.start (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:124:13)
+    at Object.<anonymous> (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:318:30)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2021-11-10T12:31:18.487Z - error: uncaughtException: listen EADDRINUSE: address already in use :::5488
+Error: listen EADDRINUSE: address already in use :::5488
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:22:12
+    at new Promise (<anonymous>)
+    at startAsync (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:16:10)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:50:14
+    at Object.start (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:124:13)
+    at Object.<anonymous> (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:318:30)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) error=Error: listen EADDRINUSE: address already in use :::5488, stack=Error: listen EADDRINUSE: address already in use :::5488
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:22:12
+    at new Promise (<anonymous>)
+    at startAsync (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:16:10)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:50:14
+    at Object.start (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:124:13)
+    at Object.<anonymous> (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:318:30)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5), exception=true, date=Wed Nov 10 2021 20:31:18 GMT+0800 (菲律宾标准时间), process=[object Object], os=[object Object], trace=[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2021-11-10T13:55:01.458Z - error: Error when starting http server on port 5488 Error: listen EADDRINUSE: address already in use :::5488
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:22:12
+    at new Promise (<anonymous>)
+    at startAsync (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:16:10)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:50:14
+    at Object.start (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:124:13)
+    at Object.<anonymous> (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:318:30)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2021-11-10T13:55:01.900Z - error: uncaughtException: listen EADDRINUSE: address already in use :::5488
+Error: listen EADDRINUSE: address already in use :::5488
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:22:12
+    at new Promise (<anonymous>)
+    at startAsync (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:16:10)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:50:14
+    at Object.start (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:124:13)
+    at Object.<anonymous> (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:318:30)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) error=Error: listen EADDRINUSE: address already in use :::5488, stack=Error: listen EADDRINUSE: address already in use :::5488
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:22:12
+    at new Promise (<anonymous>)
+    at startAsync (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:16:10)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:50:14
+    at Object.start (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:124:13)
+    at Object.<anonymous> (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:318:30)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5), exception=true, date=Wed Nov 10 2021 21:55:01 GMT+0800 (菲律宾标准时间), process=[object Object], os=[object Object], trace=[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2021-11-10T13:55:01.489Z - error: Error occurred during reporter init: Error: listen EADDRINUSE: address already in use :::5488
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:22:12
+    at new Promise (<anonymous>)
+    at startAsync (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:16:10)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:50:14
+    at Object.start (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:124:13)
+    at Object.<anonymous> (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:318:30)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2021-11-10T13:55:01.906Z - error: uncaughtException: listen EADDRINUSE: address already in use :::5488
+Error: listen EADDRINUSE: address already in use :::5488
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:22:12
+    at new Promise (<anonymous>)
+    at startAsync (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:16:10)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:50:14
+    at Object.start (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:124:13)
+    at Object.<anonymous> (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:318:30)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) error=Error: listen EADDRINUSE: address already in use :::5488, stack=Error: listen EADDRINUSE: address already in use :::5488
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:22:12
+    at new Promise (<anonymous>)
+    at startAsync (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:16:10)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:50:14
+    at Object.start (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:124:13)
+    at Object.<anonymous> (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:318:30)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5), exception=true, date=Wed Nov 10 2021 21:55:01 GMT+0800 (菲律宾标准时间), process=[object Object], os=[object Object], trace=[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2021-11-10T13:55:59.727Z - error: Error when starting http server on port 5488 Error: listen EADDRINUSE: address already in use :::5488
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:22:12
+    at new Promise (<anonymous>)
+    at startAsync (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:16:10)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:50:14
+    at Object.start (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:124:13)
+    at Object.<anonymous> (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:318:30)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2021-11-10T13:55:59.916Z - error: uncaughtException: listen EADDRINUSE: address already in use :::5488
+Error: listen EADDRINUSE: address already in use :::5488
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:22:12
+    at new Promise (<anonymous>)
+    at startAsync (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:16:10)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:50:14
+    at Object.start (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:124:13)
+    at Object.<anonymous> (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:318:30)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) error=Error: listen EADDRINUSE: address already in use :::5488, stack=Error: listen EADDRINUSE: address already in use :::5488
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:22:12
+    at new Promise (<anonymous>)
+    at startAsync (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:16:10)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:50:14
+    at Object.start (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:124:13)
+    at Object.<anonymous> (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:318:30)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5), exception=true, date=Wed Nov 10 2021 21:55:59 GMT+0800 (菲律宾标准时间), process=[object Object], os=[object Object], trace=[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2021-11-10T13:55:59.740Z - error: Error occurred during reporter init: Error: listen EADDRINUSE: address already in use :::5488
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:22:12
+    at new Promise (<anonymous>)
+    at startAsync (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:16:10)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:50:14
+    at Object.start (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:124:13)
+    at Object.<anonymous> (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:318:30)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2021-11-10T13:55:59.921Z - error: uncaughtException: listen EADDRINUSE: address already in use :::5488
+Error: listen EADDRINUSE: address already in use :::5488
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:22:12
+    at new Promise (<anonymous>)
+    at startAsync (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:16:10)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:50:14
+    at Object.start (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:124:13)
+    at Object.<anonymous> (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:318:30)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) error=Error: listen EADDRINUSE: address already in use :::5488, stack=Error: listen EADDRINUSE: address already in use :::5488
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:22:12
+    at new Promise (<anonymous>)
+    at startAsync (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:16:10)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:50:14
+    at Object.start (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:124:13)
+    at Object.<anonymous> (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\jsreport-express\lib\main.js:318:30)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5), exception=true, date=Wed Nov 10 2021 21:55:59 GMT+0800 (菲律宾标准时间), process=[object Object], os=[object Object], trace=[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2021-11-10T14:26:44.146Z - error: uncaughtException: Invalid URL
+TypeError [ERR_INVALID_URL]: Invalid URL
+    at new NodeError (node:internal/errors:371:5)
+    at onParseError (node:internal/url:552:9)
+    at new URL (node:internal/url:628:5)
+    at Client.render (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\nodejs-client\lib\client.js:31:21)
+    at D:\jemina\ICS2609\jsReportDemo\app.js:29:12
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:317:13)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:284:7 error=TypeError [ERR_INVALID_URL]: Invalid URL, stack=TypeError [ERR_INVALID_URL]: Invalid URL
+    at new NodeError (node:internal/errors:371:5)
+    at onParseError (node:internal/url:552:9)
+    at new URL (node:internal/url:628:5)
+    at Client.render (D:\jemina\ICS2609\jsReportDemo\node_modules\@jsreport\nodejs-client\lib\client.js:31:21)
+    at D:\jemina\ICS2609\jsReportDemo\app.js:29:12
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:317:13)
+    at D:\jemina\ICS2609\jsReportDemo\node_modules\express\lib\router\index.js:284:7, exception=true, date=Wed Nov 10 2021 22:26:43 GMT+0800 (菲律宾标准时间), process=[object Object], os=[object Object], trace=[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]

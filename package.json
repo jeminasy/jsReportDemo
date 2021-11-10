@@ -12,6 +12,10 @@
     "@jsreport/jsreport-chrome-pdf": "^3.0.0",
     "@jsreport/jsreport-core": "^3.0.1",
     "@jsreport/jsreport-handlebars": "^3.0.0",
+    "@jsreport/nodejs-client": "^3.0.0",
+    "handlebars": "^4.7.7",
+    "handlebars-helpers": "^0.10.0",
+    "jsrender": "^1.0.11",
     "jsreport": "^3.0.1",
     "puppeteer": "^11.0.0"
   }

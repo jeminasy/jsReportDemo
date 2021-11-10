@@ -1,7 +1,7 @@
 {
     "name": "temp1",
     "engine": "handlebars",
-    "recipe": "chrome-pdf",
+    "recipe": "chrome-image",
     "data": {
         "shortid": "B1lSTrt6NB"
     },
@@ -13,7 +13,7 @@
         "$$date": 1636265588742
     },
     "modificationDate": {
-        "$$date": 1636268324061
+        "$$date": 1636555376537
     },
     "_id": "nTqOKrnpPj1AsgOV",
     "$entitySet": "templates"
