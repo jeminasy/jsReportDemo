@@ -1,5 +1,5 @@
 let myData = {
-    "customer": "Runner Group",
+    "customer": "3ISB",
     "month": "April",
     "taxPercentage": 0.20,
     "detail": [{

@@ -17,7 +17,7 @@ app.get('/', (req, res) => {
 
 app.get('/name', (req, res) => {
     var temp = jsrender.templates('Name: {{:name}}<br />');
-    var html = temp.render({name: "Jim"});
+    var html = temp.render({name: "John Doe"});
     res.send(html);
 });
 

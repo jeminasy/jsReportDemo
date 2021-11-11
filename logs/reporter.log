@@ -5599,3 +5599,91 @@ TypeError [ERR_INVALID_URL]: Invalid URL
 2021-11-10T14:49:45.627Z - debug: Running chrome with params {"type":"png","encoding":"binary"} rootId=u0zzixt5cxd3dro, id=u0zzixt5cxd3dro
 2021-11-10T14:49:46.021Z - debug: Skipping storing report. rootId=u0zzixt5cxd3dro, id=u0zzixt5cxd3dro
 2021-11-10T14:49:46.023Z - info: Rendering request 1 finished in 24785 ms rootId=u0zzixt5cxd3dro, id=u0zzixt5cxd3dro
+2021-11-10T15:23:34.127Z - debug: fs journal was not synced for a while, need full reload
+2021-11-10T15:23:34.323Z - info: fs store is loading data
+2021-11-11T00:58:37.984Z - info: Initializing jsreport (version: 3.0.1, configuration file: jsreport.config.json, nodejs: 16.13.0)
+2021-11-11T00:58:38.044Z - info: Searching for available extensions in D:\jemina\ICS2609\jsReportDemo\
+2021-11-11T00:58:38.640Z - info: Extensions location cache contains up to date information, skipping crawling in D:\jemina\ICS2609\jsReportDemo\
+2021-11-11T00:59:08.089Z - info: Found 35 extension(s)
+2021-11-11T00:59:08.587Z - debug: Writing extension locations cache to C:\Users\syjem\AppData\Local\Temp\jsreport\core\locations.json
+2021-11-11T00:59:08.664Z - debug: Discovered 35 extensions
+2021-11-11T00:59:08.870Z - debug: Extension authentication@3.0.0 is disabled, skipping
+2021-11-11T00:59:08.875Z - info: Using extension base@3.0.0
+2021-11-11T00:59:08.911Z - info: Using extension child-templates@3.0.0
+2021-11-11T00:59:08.932Z - info: Using extension cli@3.0.0
+2021-11-11T00:59:08.999Z - info: Using extension components@3.0.0
+2021-11-11T00:59:09.021Z - info: Using extension data@3.0.0
+2021-11-11T00:59:09.038Z - info: Using extension express@3.0.0
+2021-11-11T00:59:12.653Z - info: Using extension freeze@3.0.1
+2021-11-11T00:59:12.674Z - info: Using extension fs-store@3.0.0
+2021-11-11T00:59:14.579Z - info: Using extension handlebars@3.0.0
+2021-11-11T00:59:14.589Z - info: Using extension import-export@3.0.0
+2021-11-11T00:59:14.827Z - info: Using extension jsrender@3.0.0
+2021-11-11T00:59:14.833Z - info: Using extension licensing@3.0.1
+2021-11-11T00:59:14.927Z - info: Using extension localization@3.0.0
+2021-11-11T00:59:14.951Z - info: Using extension npm@3.0.1
+2021-11-11T00:59:14.970Z - info: Using extension pdf-utils@3.0.0
+2021-11-11T00:59:14.994Z - info: Using extension reports@3.0.0
+2021-11-11T00:59:15.033Z - info: Using extension tags@3.0.0
+2021-11-11T00:59:15.045Z - info: Using extension text@3.0.0
+2021-11-11T00:59:15.051Z - info: Using extension version-control@3.0.0
+2021-11-11T00:59:15.352Z - info: Using extension assets@3.0.0
+2021-11-11T00:59:15.541Z - info: Using extension authorization@3.0.1
+2021-11-11T00:59:15.579Z - debug: Extension authorization@3.0.1 was disabled
+2021-11-11T00:59:15.582Z - info: Using extension browser-client@3.0.0
+2021-11-11T00:59:15.631Z - info: Using extension chrome-pdf@3.0.0
+2021-11-11T00:59:15.646Z - debug: Chrome strategy is chrome-pool, numberOfWorkers: 1
+2021-11-11T00:59:15.648Z - info: Using extension docx@3.0.0
+2021-11-11T00:59:15.685Z - info: Using extension html-to-xlsx@3.0.0
+2021-11-11T00:59:17.486Z - info: html-to-xlsx detected chrome as available html engine
+2021-11-11T00:59:17.487Z - info: Using extension pptx@3.0.0
+2021-11-11T00:59:17.529Z - info: Using extension scheduling@3.0.0
+2021-11-11T00:59:18.162Z - info: Using extension scripts@3.0.0
+2021-11-11T00:59:18.194Z - info: Using extension static-pdf@3.0.0
+2021-11-11T00:59:18.201Z - info: Using extension studio@3.0.0
+2021-11-11T00:59:20.145Z - info: Using extension xlsx@3.0.0
+2021-11-11T00:59:20.661Z - info: Using extension public-templates@3.0.0
+2021-11-11T00:59:20.703Z - debug: Extension public-templates@3.0.0 was disabled
+2021-11-11T00:59:20.705Z - info: Using extension sample-template@3.0.0
+2021-11-11T00:59:20.722Z - info: Using extension studio-theme-dark@3.0.0
+2021-11-11T00:59:20.747Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2021-11-11T00:59:20.748Z - info: Using fs provider for template store.
+2021-11-11T00:59:20.780Z - info: fs store is persisting using fs for D:\jemina\ICS2609\jsReportDemo\data
+2021-11-11T00:59:20.921Z - info: fs store is loading data
+2021-11-11T00:59:21.339Z - info: fs store is initialized successfully
+2021-11-11T00:59:21.370Z - debug: studio default theme is: light
+2021-11-11T00:59:21.418Z - info: Creating default express app.
+2021-11-11T00:59:22.009Z - info: jsreport server successfully started on http port: 5488
+2021-11-11T00:59:22.016Z - info: Verifying license key free
+2021-11-11T00:59:22.020Z - info: Using free license
+2021-11-11T00:59:22.042Z - info: Initializing worker threads
+2021-11-11T00:59:22.043Z - debug: Extensions in workers: base, child-templates, components, data, express, handlebars, jsrender, localization, npm, pdf-utils, reports, text, version-control, assets, browser-client, chrome-pdf, docx, html-to-xlsx, pptx, scripts, static-pdf, studio, xlsx
+2021-11-11T00:59:27.048Z - info: 2 worker threads initialized in 5006ms
+2021-11-11T00:59:27.050Z - info: Starting temp files cleanup with 180000ms threshold
+2021-11-11T00:59:27.054Z - info: reporter initialized
+2021-11-11T00:59:41.926Z - info: Starting rendering request 1 (user: null) rootId=xbp26x6hfkttf78, id=xbp26x6hfkttf78
+2021-11-11T00:59:41.928Z - info: Rendering template { name: temp1, recipe: chrome-image, engine: handlebars, preview: false } rootId=xbp26x6hfkttf78, id=xbp26x6hfkttf78
+2021-11-11T00:59:41.933Z - debug: Inline data specified. rootId=xbp26x6hfkttf78, id=xbp26x6hfkttf78
+2021-11-11T00:59:46.367Z - debug: Base url not specified, skipping its injection. rootId=xbp26x6hfkttf78, id=xbp26x6hfkttf78
+2021-11-11T00:59:46.370Z - debug: Replaced assets ["styles.css"] rootId=xbp26x6hfkttf78, id=xbp26x6hfkttf78
+2021-11-11T00:59:46.394Z - debug: Rendering engine handlebars rootId=xbp26x6hfkttf78, id=xbp26x6hfkttf78
+2021-11-11T00:59:48.677Z - debug: Executing recipe chrome-image rootId=xbp26x6hfkttf78, id=xbp26x6hfkttf78
+2021-11-11T01:00:11.945Z - debug: Converting with chrome HeadlessChrome/93.0.4577.0 using chrome-pool strategy rootId=xbp26x6hfkttf78, id=xbp26x6hfkttf78
+2021-11-11T01:00:14.264Z - debug: Page request: GET (document) file:///C:/Users/syjem/AppData/Local/Temp/jsreport/autocleanup/a5c8b397-1d6e-4ca9-96b1-0401f97e448d-chrome-image.html rootId=xbp26x6hfkttf78, id=xbp26x6hfkttf78
+2021-11-11T01:00:14.369Z - debug: Page request finished: GET (document) file:///C:/Users/syjem/AppData/Local/Temp/jsreport/autocleanup/a5c8b397-1d6e-4ca9-96b1-0401f97e448d-chrome-image.html rootId=xbp26x6hfkttf78, id=xbp26x6hfkttf78
+2021-11-11T01:00:14.653Z - debug: Running chrome with params {"type":"png","encoding":"binary"} rootId=xbp26x6hfkttf78, id=xbp26x6hfkttf78
+2021-11-11T01:00:14.838Z - debug: Skipping storing report. rootId=xbp26x6hfkttf78, id=xbp26x6hfkttf78
+2021-11-11T01:00:14.841Z - info: Rendering request 1 finished in 32981 ms rootId=xbp26x6hfkttf78, id=xbp26x6hfkttf78
+2021-11-11T01:00:28.930Z - info: Starting rendering request 2 (user: null) rootId=wvrxo03dtrzmu5y, id=wvrxo03dtrzmu5y
+2021-11-11T01:00:28.932Z - info: Rendering template { name: temp1, recipe: chrome-image, engine: handlebars, preview: false } rootId=wvrxo03dtrzmu5y, id=wvrxo03dtrzmu5y
+2021-11-11T01:00:29.177Z - debug: Inline data specified. rootId=wvrxo03dtrzmu5y, id=wvrxo03dtrzmu5y
+2021-11-11T01:00:29.179Z - debug: Base url not specified, skipping its injection. rootId=wvrxo03dtrzmu5y, id=wvrxo03dtrzmu5y
+2021-11-11T01:00:29.183Z - debug: Replaced assets ["styles.css"] rootId=wvrxo03dtrzmu5y, id=wvrxo03dtrzmu5y
+2021-11-11T01:00:29.190Z - debug: Rendering engine handlebars rootId=wvrxo03dtrzmu5y, id=wvrxo03dtrzmu5y
+2021-11-11T01:00:29.288Z - debug: Executing recipe chrome-image rootId=wvrxo03dtrzmu5y, id=wvrxo03dtrzmu5y
+2021-11-11T01:00:29.290Z - debug: Converting with chrome HeadlessChrome/93.0.4577.0 using chrome-pool strategy rootId=wvrxo03dtrzmu5y, id=wvrxo03dtrzmu5y
+2021-11-11T01:00:30.360Z - debug: Page request: GET (document) file:///C:/Users/syjem/AppData/Local/Temp/jsreport/autocleanup/2d40a6ab-67c8-4452-b562-73d61cc28a5e-chrome-image.html rootId=wvrxo03dtrzmu5y, id=wvrxo03dtrzmu5y
+2021-11-11T01:00:30.361Z - debug: Page request finished: GET (document) file:///C:/Users/syjem/AppData/Local/Temp/jsreport/autocleanup/2d40a6ab-67c8-4452-b562-73d61cc28a5e-chrome-image.html rootId=wvrxo03dtrzmu5y, id=wvrxo03dtrzmu5y
+2021-11-11T01:00:30.473Z - debug: Running chrome with params {"type":"png","encoding":"binary"} rootId=wvrxo03dtrzmu5y, id=wvrxo03dtrzmu5y
+2021-11-11T01:00:30.569Z - debug: Skipping storing report. rootId=wvrxo03dtrzmu5y, id=wvrxo03dtrzmu5y
+2021-11-11T01:00:30.571Z - info: Rendering request 2 finished in 1647 ms rootId=wvrxo03dtrzmu5y, id=wvrxo03dtrzmu5y
